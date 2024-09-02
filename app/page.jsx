@@ -118,12 +118,12 @@ export default function HeroSectionSimpleCentred() {
           {/* Title */}
           <GradualSpacing
       className="font-display text-center text-4xl  font-bold tracking-[-0.1em]  text-black dark:text-white md:text-7xl md:leading-[5rem]"
-      text="Introducing ✨  WebSeva"
+      text="Introducing   WebSeva"
     />
           {/* End Title */}
           <div className="mt-5 max-w-[600px] text-center mx-auto">
             <p className="text-xl text-muted-foreground">
-              WebSeva is a platform where you can find open-source project&apos;s to contribute and win exciting rewards.
+              WebSeva is a platform where you can find open-source projects to contribute to and win exciting rewards.
             </p>
           </div>
           {/* Buttons */}
