@@ -1,4 +1,5 @@
 'use client'
+import Head from "next/head";
 import { Button } from "@/components/ui/button";
 import { ChevronRightIcon } from "lucide-react";
 import Ripple from "@/components/magicui/ripple";
@@ -94,6 +95,9 @@ export default function HeroSectionSimpleCentred() {
   };
   
   return (
+
+
+    
     <div className="relative flex h-screen w-full items-center justify-center overflow-hidden rounded-lg border bg-background p-20 md:shadow-xl">
             
       <div className="z-10" >
@@ -107,25 +111,19 @@ export default function HeroSectionSimpleCentred() {
           "group rounded-full mb-[10px] border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-neutral-200 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800",
         )}
       >
-        <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-          <span className=" flex gap-[10px] justify-center items-center">
-          ✨ Introducing WebSeva
-            <ArrowRightIcon className=" size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
-            </span>
-          
-        </AnimatedShinyText>
+       
       </div>
     </div>
           {/* End Announcement Banner */}
           {/* Title */}
           <GradualSpacing
       className="font-display text-center text-4xl  font-bold tracking-[-0.1em]  text-black dark:text-white md:text-7xl md:leading-[5rem]"
-      text="Let&apos;s Build Together"
+      text="Introducing ✨  WebSeva"
     />
           {/* End Title */}
           <div className="mt-5 max-w-[600px] text-center mx-auto">
             <p className="text-xl text-muted-foreground">
-              WebSeva is a platform where you can find open-source project&apos;s to contribute and win exciting reward&apos;s.
+              WebSeva is a platform where you can find open-source project&apos;s to contribute and win exciting rewards.
             </p>
           </div>
           {/* Buttons */}
@@ -244,12 +242,14 @@ export default function HeroSectionSimpleCentred() {
                         <path d="M10 14L21 3"></path>
                       </svg>
                     </a>
+
+                    
                     <a
                       className="text-xs text-gray-600 flex items-center gap-0.25"
-                      href="https://twitter.com/dpkshetti"
+                      href="https://www.linkedin.com/company/webseva/?viewAsMember=true"
                       target="_blank"
                     >
-                      Twitter
+                      LinkedIn
                       <svg
                         fill="none"
                         height="16"
@@ -309,7 +309,7 @@ export default function HeroSectionSimpleCentred() {
     <Ripple></Ripple>
     </div>
     </div>
-       
+    
   );
 }
 
